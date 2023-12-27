@@ -8,5 +8,145 @@
 // a = 9, b = -3 => да
 // a = -3, b = 9 => нет
 
-Console.WriteLine();
-Console.ReadLine();
+// Console.WriteLine("Введите число");
+// int num1 = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Введите число");
+// int num2 = int.Parse(Console.ReadLine());
+
+// if(num1 == num2*num2)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Нет");
+// }
+
+// Напишите программу, которая на вход принимает
+// целое число N, а на выходе показывает все целые
+// числа в промежутке от -N до N.
+// Примеры
+// 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
+// 2 => -2, -1, 0, 1, 2
+
+// Console.WriteLine("Введите число");
+// int num = int.Parse(Console.ReadLine());
+
+// int negNum = -1 * num;
+
+// while(negNum<= num)
+// {
+// Console.WriteLine(negNum);
+
+// negNum = negNum+1;
+// negNum+=1;
+// negNum++;
+// }
+// Напишите программу, которая принимает на вход
+// трёхзначное целое число и на выходе показывает сумму
+// первой и последней цифры этого числа.
+// 456 => 10
+// 782 => 9
+// 918 => 17
+
+// Console.WriteLine("Введите число");
+// int num = int.Parse(Console.ReadLine());
+
+// int num1 =num/100;
+// int num3 = num % 10;
+
+// int result = num1+num3;
+// Console.WriteLine(result);
+
+// Console.WriteLine("Сум = "+ result+ " кнг");// Конкатенация
+// Console.WriteLine($"Сум = {result} кнг");// Интерполяция
+// Большее из двух чисел
+
+// Инструкция по использованию платформы
+
+
+
+// Внутри класса Answer напишите метод CompareNumbers, который на вход принимает два числа и выводит, какое число большее, а какое меньшее.
+
+// Пример использования:
+// На входе:
+
+
+// firstNumber: '5'
+// secondNumber: '6'
+// На выходе:
+
+
+// Первое число `5` меньше чем второе число `6`
+// На входе:
+
+
+// firstNumber: '3'
+// secondNumber: '6'
+// На выходе:
+
+
+// Первое число `3` меньше чем второе число `6`
+// На входе:
+
+
+// firstNumber: '3'
+// secondNumber: '3'
+// На выходе:
+
+
+// Введенные числа равны `3`
+
+// Console.WriteLine("Введите число");
+// int firstNumber = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Введите число");
+// int secondNumber = int.Parse(Console.ReadLine());
+
+// if(firstNumber < secondNumber)
+// {
+//     Console.WriteLine(secondNumber);
+// }
+// else
+// {
+//     Console.WriteLine(firstNumber);
+// }
+
+// using System;
+
+// public class Answer {
+//     static void CompareNumbers(int firstNumber, int secondNumber)
+//     {
+//         // Введите свое решение ниже
+//         if(firstNumber < secondNumber)
+//         {
+//             Console.WriteLine($"Первое число `{firstNumber}` меньше чем второе число `{secondNumber}`");
+//         }
+//         else if(firstNumber == secondNumber) 
+//         {
+//             Console.WriteLine($"Введенные числа равны `{firstNumber}`");
+//         }
+//         else
+//         {
+//             Console.WriteLine($"Первое число `{firstNumber}` больше чем второе число `{secondNumber}`");
+//         }     
+//     }
+
+//   // Не удаляйте и не меняйте метод Main! 
+//     static public void Main(string[] args) {
+//         int firstNumber, secondNumber;
+
+//         if (args.Length >= 2) {
+//             firstNumber = int.Parse(args[0]);
+//             secondNumber = int.Parse(args[1]);
+//         } else {
+//            // Здесь вы можете поменять значения для отправки кода на Выполнение
+//             firstNumber = 7;
+//             secondNumber = 6;
+//         }
+
+//         // Не удаляйте строки ниже
+//         CompareNumbers(firstNumber, secondNumber);
+//     }
+// }
